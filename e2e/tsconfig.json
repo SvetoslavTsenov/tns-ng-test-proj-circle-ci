@@ -7,7 +7,8 @@
     "importHelpers": false,
     "types": [
       "jasmine",
-      "node"
+      "node",
+      "chai"
     ],
     "lib": [
       "es2015",

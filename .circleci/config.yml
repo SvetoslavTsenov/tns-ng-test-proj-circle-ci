@@ -46,7 +46,7 @@ jobs:
         command: pip install six
     - run:
         name: Build iOS
-        command: yarn tns build ios --bundle
+        command: echo yes | yarn ios
     - run:
         name: Tests
         command: yarn e2e-appium -- --runType=sim.iPhone7 --verbose=true --ignoreDeviceController=true
