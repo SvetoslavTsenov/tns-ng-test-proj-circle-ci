@@ -50,29 +50,8 @@ jobs:
     - run:
         name: Tests
         command: yarn e2e-appium -- --runType=sim.iPhone7 --verbose=true --ignoreDeviceController=true
-  android:
-    docker:
-    - image: scratchy/nativescript-cli
-    environment:
-    - YARN: /root/.yarn/bin/yarn
-    - _JAVA_OPTIONS: -Xmx1g
-    steps:
-    - checkout
-    - run: curl -o- -L https://yarnpkg.com/install.sh | bash
-    - restore_cache:
-        key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
-    - run: $YARN
-    - save_cache:
-        key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
-        paths:
-        - ~/.cache/yarn
-        - node_modules
-    - run:
-        name: Build Android
-        command: $YARN tns build android
 workflows:
   version: 2
   build:
     jobs:
     - ios
-    - android
