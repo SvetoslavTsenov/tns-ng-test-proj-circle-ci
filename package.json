@@ -15,7 +15,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "android": "tns run android --bundle",
-    "ios": "tns run ios --bundle",
+    "ios": "tns build ios --bundle",
     "mobile": "tns run --bundle",
     "preview": "tns preview --bundle",
     "e2e-appium": "node ./node_modules/nativescript-dev-appium/check-dev-deps.js &&  tsc -p e2e  &&  jasmine --config=./e2e/config/jasmine.json ",
