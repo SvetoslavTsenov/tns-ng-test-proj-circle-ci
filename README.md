@@ -1,27 +1,20 @@
-# tns-ng-test-proj-circle-ci
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
+# NativeScript Core Modules Widgets
+[![Build Status](https://travis-ci.org/NativeScript/tns-core-modules-widgets.svg?branch=master)](https://travis-ci.org/NativeScript/tns-core-modules-widgets)
 
-## Development server
+This repository contains the source code of the `tns-core-modules-widgets` library. This library represents native code (Java and Objective-C) used by the NativeScript [`core modules`](https://github.com/NativeScript/NativeScript/tree/master/tns-core-modules).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[NativeScript](https://www.nativescript.org/) is a framework which enables developers to write truly native mobile applications for Android and iOS using JavaScript and CSS.
 
-## Code scaffolding
+<!-- TOC depthFrom:2 -->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Contribute](#contribute)
+- [Get Help](#get-help)
 
-## Build
+<!-- /TOC -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Contribute
+We love PRs! Check out the [contributing guidelines](CONTRIBUTING.md) and [development workflow for local setup](DevelopmentWorkflow.md). If you want to contribute, but you are not sure where to start - look for issues labeled [`help wanted`](https://github.com/NativeScript/tns-core-modules-widgets/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22).
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Get Help
+Please, use [github issues](https://github.com/NativeScript/tns-core-modules-widgets/issues) strictly for [reporting bugs](CONTRIBUTING.md#reporting-bugs) or [requesting features](CONTRIBUTING.md#requesting-new-features). For general questions and support, check out the [NativeScript community forum](https://discourse.nativescript.org/) or ask our experts in [NativeScript community Slack channel](http://developer.telerik.com/wp-login.php?action=slack-invitation).

@@ -1,71 +1,24 @@
 {
-  "name": "tns-ng-test-proj-circle-ci",
-  "nativescript": {
-    "id": "org.nativescript.tnsngtestprojcircleci",
-    "tns-ios": {
-      "version": "5.2.0"
-    }
-  },
-  "version": "1.0.0",
+  "name": "tns-core-modules-widgets",
+  "version": "5.3.0",
+  "description": "Native widgets used in the NativeScript framework.",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "android": "tns run android --bundle",
-    "ios": "tns build ios --bundle",
-    "mobile": "tns run --bundle",
-    "preview": "tns preview --bundle",
-    "e2e-appium": "node ./node_modules/nativescript-dev-appium/check-dev-deps.js &&  tsc -p e2e  &&  jasmine --config=./e2e/config/jasmine.json ",
-    "e2e-appium-watch": "tsc -p e2e --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "~7.2.0",
-    "@angular/common": "~7.2.0",
-    "@angular/compiler": "~7.2.0",
-    "@angular/core": "~7.2.0",
-    "@angular/forms": "~7.2.0",
-    "@angular/http": "~7.2.0",
-    "@angular/platform-browser": "~7.2.0",
-    "@angular/platform-browser-dynamic": "~7.2.0",
-    "@angular/router": "~7.2.0",
-    "core-js": "^2.5.4",
-    "nativescript": "^5.2.0",
-    "nativescript-angular": "~7.2.0",
-    "nativescript-theme-core": "~1.0.4",
-    "reflect-metadata": "~0.1.12",
-    "rxjs": "~6.3.3",
-    "tns-core-modules": "~5.2.0",
-    "zone.js": "^0.8.26"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/android-widgets.git"
   },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.11.4",
-    "@angular/cli": "^7.2.0",
-    "@angular/compiler-cli": "~7.2.0",
-    "@nativescript/schematics": "~0.4.0",
-    "@types/chai": "~4.1.7",
-    "@types/jasmine": "2.8.6",
-    "@types/jasminewd2": "~2.0.3",
-    "@types/node": "~8.9.4",
-    "codelyzer": "~4.2.1",
-    "jasmine": "~3.3.1",
-    "jasmine-core": "~2.99.1",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~1.7.1",
-    "karma-chrome-launcher": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "~2.0.0",
-    "karma-jasmine": "~1.1.1",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "nativescript-dev-appium": "^5.0.1-2019-02-24-01",
-    "nativescript-dev-typescript": "~0.8.0",
-    "nativescript-dev-webpack": "^0.20.0",
-    "protractor": "~5.3.0",
-    "ts-node": "~5.0.1",
-    "tslint": "~5.9.1",
-    "typescript": "~3.1.1",
-    "webpack-cli": "^3.2.3"
+  "author": "NativeScript team",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NativeScript/android-widgets/issues"
+  },
+  "homepage": "https://github.com/NativeScript/android-widgets#readme",
+  "nativescript": {
+    "platforms": {
+      "ios": "4.0.0",
+      "android": "4.0.0"
+    }
   }
 }
